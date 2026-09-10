@@ -1,0 +1,49 @@
+{
+    "hero": {
+        "video_type": "local",
+        "video_url": "uploads\/hero-video.mp4",
+        "youtube_id": "",
+        "title": "Welcome to Royal Estate",
+        "subtitle": "Experience luxury and elegance in Kurunegala, Sri Lanka.",
+        "btn1_text": "Book a Room",
+        "btn1_link": "room-booking.php",
+        "btn2_text": "Plan an Event",
+        "btn2_link": "event-booking.php"
+    },
+    "sections": {
+        "rooms": {
+            "title": "Luxury Rooms & Suites",
+            "subtitle": "Experience unparalleled comfort and elegance",
+            "enabled": true
+        },
+        "about": {
+            "title": "About Royal Estate",
+            "content": "Founded in 2010, Royal Estate has been the epitome of luxury hospitality...",
+            "enabled": true
+        },
+        "event_halls": {
+            "title": "Grand Event Halls",
+            "subtitle": "Celebrate your special moments in our magnificent venues",
+            "enabled": true
+        },
+        "packages": {
+            "title": "Special Event Packages",
+            "subtitle": "Curated packages for every occasion",
+            "enabled": true
+        },
+        "contact": {
+            "title": "Contact Us",
+            "subtitle": "Get in touch with us for reservations and inquiries",
+            "email": "info@royalestate.lk",
+            "phone": "+94 37 222 1234",
+            "address": "Kurunegala, Sri Lanka",
+            "enabled": true
+        }
+    },
+    "stats": {
+        "happy_guests": 5000,
+        "events_hosted": 250,
+        "luxury_rooms": 50,
+        "team_members": 100
+    }
+}

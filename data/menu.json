@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "link": "index.php",
+        "order": 1,
+        "active": 1
+    },
+    {
+        "id": 3,
+        "name": "Event Halls",
+        "link": "event-halls.php",
+        "order": 2,
+        "active": 1
+    },
+    {
+        "id": 2,
+        "name": "Rooms",
+        "link": "rooms.php",
+        "order": 3,
+        "active": 1
+    },
+    {
+        "id": 4,
+        "name": "Packages",
+        "link": "packages.php",
+        "order": 4,
+        "active": 1
+    },
+    {
+        "id": 5,
+        "name": "About",
+        "link": "about.php",
+        "order": 5,
+        "active": 1
+    },
+    {
+        "id": 6,
+        "name": "Contact",
+        "link": "contact.php",
+        "order": 6,
+        "active": 1
+    }
+]

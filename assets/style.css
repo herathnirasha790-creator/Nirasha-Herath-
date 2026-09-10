@@ -1,0 +1,111 @@
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(8px);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+.modal.active { display: flex; }
+.modal-content {
+    background: white;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 450px;
+    padding: 2rem;
+    position: relative;
+    animation: fadeInUp 0.3s;
+}
+.close-modal {
+    position: absolute;
+    top: 15px; right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.modal-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #eee;
+}
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #666;
+}
+.tab-btn.active {
+    color: #c5a263;
+    border-bottom: 2px solid #c5a263;
+}
+.tab-pane { display: none; }
+.tab-pane.active { display: block; }
+.auth-btn {
+    background: linear-gradient(135deg, #c5a263, #8b691f);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.error-msg {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.demo-info {
+    background: #f5f0eb;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* User Dropdown */
+.user-dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.user-avatar-small {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 200px;
+    display: none;
+    z-index: 100;
+}
+.user-dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #2c1810;
+    text-decoration: none;
+}
+.dropdown-menu a:hover {
+    background: #f5f0eb;
+}

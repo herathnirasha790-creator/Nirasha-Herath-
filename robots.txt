@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /user/
+Disallow: /config/
+Disallow: /data/
+Disallow: /vendor/
+
+Sitemap: https://royalestate.wuaze.com/sitemap.xml
